@@ -1,0 +1,22 @@
+
+header h3{
+    font-size: 1.3em;
+}
+#cal{
+    padding: 5px;
+}
+#output,#previous{
+    margin-left:2px;
+}
+
+#cal ul li button{
+    width: 3.6em;
+    height: 2.2em;
+    border-radius: 8px;
+    font-size: .8em;
+}
+#pagechange{
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+}

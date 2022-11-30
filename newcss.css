@@ -1,0 +1,107 @@
+html{
+    font-size: 18px;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: bisque; */
+    width: 600px;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 0px;
+}
+
+header h3{
+    
+    font-size: 27px;
+    margin-bottom: 6px;
+    /* border-bottom: 3px solid rgb(94, 155, 157); */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#maincontent{
+    border: 2px solid red;
+    background-color: aliceblue;
+    height: 380px;
+    border-radius: 8px;
+    margin-top: 30px;
+    padding: 0px 15px;
+}
+.heading{
+    font-size: 1.25em;
+    display: flex;
+    justify-content: center;
+}
+#inputtype{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    justify-content: center;
+    /* font-family: 'Rubik Distressed', cursive; */
+}
+#inputtype *{
+    margin: 0px 20px;
+}
+#datetime,#submit,#reset{
+    
+    padding: 10px 15px;
+    font-size: 1.25em;
+    border-radius: 5px;
+
+    border: 2px solid black;
+    cursor: pointer;
+}
+.display ul{
+    /* background-image: linear-gradient(to right ,rgb(185, 167, 129) 0%, rgb(184, 184, 20) 100%); */
+    border: 1.5px solid rgb(76, 34, 88);
+    display: flex;
+    /* font-family: 'Rubik Distressed', cursive; */
+    font-weight: 500;
+    align-items: center;
+    box-shadow: 1px .5px 1.4px .4px blue;
+    justify-content: space-between;
+    height: 112px;
+    width: 526px;
+    margin-left: 14px;
+    border-radius: 17px;
+    
+
+}
+.display ul li{
+    width: 95px;
+    list-style-type: none;
+    font-size: 30px;
+}
+li span{
+    display: block;
+}
+#pagechange{
+    font-size: 22px;
+    margin-top: 15px;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    /* width: 350px; */
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* border: 2px solid blue; */
+}
+#pagechange span a{
+    text-decoration: none;
+}
+#pagechange span +span{
+    padding: 3px 10px;
+    color: rgb(255, 255, 255);
+    /* box-shadow: 2px 1px 1.2px 4px green; */
+    background-color: rgb(191, 232, 210);
+    border: 2px solid rgb(17, 8, 16);
+    transition: all .3s;
+    border-radius: 5px;
+}
+#pagechange span +span:hover{
+    color: black;
+    background-color: blanchedalmond;
+}
